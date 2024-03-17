@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5", // Set the JavaScript version for output
+		"module": "commonjs", // Specify module format (commonjs for Node.js)
+		"strict": true, // Enable strict type checking
+		"outDir": "dist", // Output directory for compiled JavaScript (optional)
+		"lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries
+		"allowJs": true, // Allow compilation of JavaScript files
+		"skipLibCheck": true, // Ignore missing type definitions for external libraries (optional)
+		"rootDir": "./src" // Specify the root directory of input files
+	},
+	"include": ["./src/**/*", "**/*.ts"],
+	"exclude": ["node_modules", "dist"]
+}
